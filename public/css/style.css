@@ -1,0 +1,133 @@
+.form-group .error{
+    border: 1px solid red;
+}
+.card-section-div, body{
+    background-color: #eee;
+    width: 100%;
+}
+.payment-summary{
+    font-size: 16px;
+}
+
+.addItem-div{
+    padding-bottom: 10px;
+}
+.card-icon{
+    padding-bottom: 10px;
+}
+.form-label{
+    font-weight: bold;
+}    
+.display-none{
+    display: none;
+}
+
+.card-div{
+    padding-bottom: 13px;
+}
+.form-control-lg {
+    font-size: 0.80rem !important;
+}
+.submit-items{
+    font-size: 17px;
+}
+
+.text-body{text-decoration: none !important;}
+
+#items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-collapse:separate;
+    border-spacing:0 3px;
+}
+
+#items-table th, #items-table td {
+    border: transparent;
+    padding: 8px;
+    text-align: left;
+    padding-right: 0;
+}
+
+#totals {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#items-table thead tr{
+    background: #232e38;
+    color: #fff;
+}
+
+#items-table td:first-of-type, #items-table th:first-of-type{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#items-table td:last-of-type, #items-table th:last-of-type{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.width-10-per{
+    width: 10%;
+}
+.header-div{
+    background-color: black;
+}
+.sucess-payment-section {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+    background-color: #eee;
+  
+  }
+.card-div h3 {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+    margin: 0;
+  }
+.checkmark {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 160px;
+  margin-left:-15px;
+}
+.checkmark-div{
+    border-radius:200px; height:160px; width:160px; background: #F8FAF5; margin:0 auto;
+}
+.card-success {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .card-type{
+    color: white;
+  }
+
+
+  
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1302px !important;
+    }
+}
+
+@media (min-width: 768px){
+    /* .addItem-btn{
+        width: 98px;
+        font-size: 12px;
+    } */
+}
+
